@@ -73,7 +73,7 @@ jobs:
         with:
           projectPath: ${{ env.PROJECT_PATH }}
           unityVersion: 2020.1.13f1
-          targetPlatform: StandaloneWindows64
+          targetPlatform: WebGL
 
       # Output
       - uses: actions/upload-artifact@v1
